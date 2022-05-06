@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 import React from 'react'
-import Buttons from "../Button/index"
+import Buttons from "../Button"
 import Images from "../User/index"
 import { useNavigation } from "@react-navigation/native";
 const BoxHeader = () => {

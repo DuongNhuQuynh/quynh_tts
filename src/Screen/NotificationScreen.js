@@ -57,6 +57,7 @@ const NotificationScreen = () => {
                     <View style={styles.left}>
                       <Text style={styles.text}>{item.title}</Text>
                       <Text style={styles.clock}>{item.time}</Text>
+                      
                     </View>
                     {close && index == id && (
                       <TouchableOpacity
